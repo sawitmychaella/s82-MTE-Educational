@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Palawan Guide</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Serif:wght@600;700&display=swap" rel="stylesheet"/>
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">Palawan Guide</a>
+
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-lg-4">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#categories-section">Categories</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button class="btn btn-custom ms-lg-4">
+          Get Started
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero-section d-flex align-items-center">
+    <div class="overlay"></div>
+
+    <div class="container position-relative hero-content">
+      <div class="row">
+        <div class="col-lg-7 text-white">
+          <span class="hero-badge">
+            UNESCO World Heritage Destination
+          </span>
+
+          <h1 class="hero-title">
+            The Last Ecological Frontier.
+          </h1>
+
+          <p class="hero-text">
+            Experience the serene majesty of Palawan.
+            From subterranean rivers to emerald lagoons,
+            explore the Philippines' most breathtaking paradise.
+          </p>
+
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <button class="btn btn-custom btn-lg">
+              Start Exploring
+            </button>
+
+            <button class="btn btn-outline-light btn-lg">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAST FACTS -->
+  <section id="introduction" class="facts-section">
+    <div class="container">
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="fact-card">
+            <span class="material-symbols-outlined icon">eco</span>
+            <h4>Biodiversity Hub</h4>
+            <p>
+              Home to hundreds of rare species and ecosystems.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="fact-card">
+            <span class="material-symbols-outlined icon">water_drop</span>
+            <h4>Pristine Waters</h4>
+            <p>
+              Crystal-clear lagoons and marine sanctuaries.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="fact-card">
+            <span class="material-symbols-outlined icon">verified</span>
+            <h4>Trusted Guides</h4>
+            <p>
+              Verified tourism information and travel resources.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS -->
+  <section id="featured" class="py-5">
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h2>Must-Visit Destinations</h2>
+        <p>
+          Discover Palawan’s most iconic and breathtaking locations.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-lg-8">
+          <div class="destination-card large-card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Palawan">
+
+            <div class="destination-overlay">
+              <span class="badge-custom">UNESCO Heritage</span>
+              <h3>Puerto Princesa Underground River</h3>
+              <p>
+                Navigate through one of the world's most impressive cave systems.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="destination-card tall-card">
+            <img src="https://images.unsplash.com/photo-1528127269322-539801943592" alt="El Nido">
+
+            <div class="destination-overlay">
+              <span class="badge-custom secondary">
+                Nature Escape
+              </span>
+
+              <h3>El Nido Lagoons</h3>
+
+              <p>
+                Hidden emerald waters behind limestone cliffs.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section id="categories-section" class="categories-section">
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h2>Explore Categories</h2>
+        <p>
+          Browse curated travel and tourism resources.
+        </p>
+      </div>
+
+      <!-- CATEGORY LISTING -->
+      <div id="categories" class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="category-card">
+            <span class="material-symbols-outlined category-icon">
+              eco
+            </span>
+
+            <h4>Eco-Tourism</h4>
+
+            <p>
+              Sustainable travel practices and protected sanctuaries.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="category-card">
+            <span class="material-symbols-outlined category-icon">
+              temple_buddhist
+            </span>
+
+            <h4>Cultural Heritage</h4>
+
+            <p>
+              Discover Palawan’s traditions and historical sites.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="category-card">
+            <span class="material-symbols-outlined category-icon">
+              hiking
+            </span>
+
+            <h4>Adventure</h4>
+
+            <p>
+              Trekking, cave exploration, and diving experiences.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="category-card">
+            <span class="material-symbols-outlined category-icon">
+              kayaking
+            </span>
+
+            <h4>Island Hopping</h4>
+
+            <p>
+              Explore beaches, lagoons, and hidden islands.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SAMPLE RESOURCES -->
+  <section id="resources" class="py-5 bg-light">
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h2>Sample Resources</h2>
+        <p>
+          Explore downloadable guides and tourism materials.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-lg-8">
+          <div class="resource-card">
+            <img
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+              alt="Resource"
+            />
+
+            <div class="resource-content">
+              <span class="badge-custom">
+                PDF GUIDE
+              </span>
+
+              <h3>
+                Sustainable Marine Interaction Guide
+              </h3>
+
+              <p>
+                Learn responsible tourism practices and coral preservation techniques.
+              </p>
+
+              <button class="btn btn-custom mt-3">
+                Download Guide
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+
+          <div class="small-resource-card mb-4">
+            <span class="material-symbols-outlined">
+              map
+            </span>
+
+            <h4>Cultural Heritage Map</h4>
+
+            <p>
+              Interactive tourism and heritage locations around Palawan.
+            </p>
+          </div>
+
+          <div class="small-resource-card">
+            <span class="material-symbols-outlined">
+              description
+            </span>
+
+            <h4>Permit Checklist</h4>
+
+            <p>
+              Documentation requirements for tourism activities.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about-section">
+    <div class="container">
+
+      <div class="row align-items-center g-5">
+
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86"
+            alt="About Palawan"
+            class="img-fluid rounded-4 shadow"
+          />
+        </div>
+
+        <div class="col-lg-6">
+          <span class="section-badge">
+            ABOUT US
+          </span>
+
+          <h2 class="about-title">
+            Preserving Paradise Through Informed Exploration.
+          </h2>
+
+          <p class="about-text">
+            Palawan Guide promotes sustainable tourism and environmental awareness through educational travel resources and responsible exploration.
+          </p>
+
+          <div class="about-features">
+
+            <div class="feature-item">
+              <span class="material-symbols-outlined">
+                eco
+              </span>
+
+              Sustainable Tourism
+            </div>
+
+            <div class="feature-item">
+              <span class="material-symbols-outlined">
+                school
+              </span>
+
+              Educational Resources
+            </div>
+
+            <div class="feature-item">
+              <span class="material-symbols-outlined">
+                verified_user
+              </span>
+
+              Verified Information
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION STATEMENT -->
+  <section id="mission" class="mission-section">
+    <div class="container">
+
+      <div class="mission-card text-center">
+
+        <span class="section-badge">
+          OUR MISSION
+        </span>
+
+        <h2 class="about-title">
+          Preserving Paradise Through Responsible Exploration
+        </h2>
+
+        <p class="mission-text">
+          Palawan Guide is committed to promoting sustainable tourism,
+          environmental awareness, and cultural preservation by providing
+          travelers with reliable resources, educational content,
+          and eco-conscious travel experiences throughout Palawan.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h2>Contact Us</h2>
+
+        <p>
+          Reach out for tourism, research, or sustainability inquiries.
+        </p>
+      </div>
+
+      <div class="row g-5">
+
+        <div class="col-lg-5">
+
+          <div class="contact-info">
+
+            <div class="contact-box">
+              <span class="material-symbols-outlined">
+                location_on
+              </span>
+
+              <div>
+                <h5>Office Location</h5>
+
+                <p>
+                  Puerto Princesa City, Palawan
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-box">
+              <span class="material-symbols-outlined">
+                mail
+              </span>
+
+              <div>
+                <h5>Email Address</h5>
+
+                <p>
+                  inquiry@palawangguide.com
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-box">
+              <span class="material-symbols-outlined">
+                call
+              </span>
+
+              <div>
+                <h5>Direct Line</h5>
+
+                <p>
+                  +63 912 345 6789
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-7">
+
+          <form class="contact-form">
+
+            <div class="row g-3">
+
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full Name"
+                />
+              </div>
+
+              <div class="col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email Address"
+                />
+              </div>
+
+              <div class="col-12">
+                <select class="form-select">
+                  <option>Inquiry Type</option>
+                  <option>Travel Planning</option>
+                  <option>Research Collaboration</option>
+                  <option>Permit Inquiry</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <textarea
+                  rows="6"
+                  class="form-control"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <div class="col-12">
+                <button class="btn btn-custom w-100">
+                  Send Inquiry
+                </button>
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="row g-5">
+
+        <div class="col-lg-4">
+          <h4>Palawan Guide</h4>
+
+          <p>
+            Your trusted tourism and sustainability resource hub for the Last Frontier.
+          </p>
+        </div>
+
+        <div class="col-lg-2">
+          <h5>Navigation</h5>
+
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h5>Resources</h5>
+
+          <ul>
+            <li><a href="#">Travel Guide</a></li>
+            <li><a href="#">Eco Tourism</a></li>
+            <li><a href="#">Partner Portal</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h5>Newsletter</h5>
+
+          <div class="newsletter">
+            <input type="email" placeholder="Email Address"/>
+            <button>
+              <span class="material-symbols-outlined">
+                arrow_forward
+              </span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <p class="copyright">
+        © 2024 Palawan Guide. All Rights Reserved.
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
